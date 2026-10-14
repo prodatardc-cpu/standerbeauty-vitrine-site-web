@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-labelledby="title">
+  <title id="title">POSH Beauty Salon</title>
+  <rect width="320" height="100" rx="12" fill="#f9f6f1"/>
+  <path d="M20 78 55 18h20l35 60H91L65 33 39 78z" fill="#c2a74e"/>
+  <text x="126" y="62" fill="#183425" font-family="Georgia,serif" font-size="42" letter-spacing="4">POSH</text>
+</svg>

@@ -1,0 +1,79 @@
+.site-hero {
+  align-items: center;
+  background:
+    radial-gradient(ellipse at 78% 35%, rgba(194, 167, 78, 0.32), transparent 34%),
+    linear-gradient(120deg, #183425 0%, #011425 68%, #091e28 100%);
+  color: #fff;
+  display: flex;
+  min-height: 690px;
+  overflow: hidden;
+  padding: 120px max(calc((100vw - 1320px) / 2), 7vw);
+  position: relative;
+}
+
+.site-hero-content {
+  max-width: 660px;
+  position: relative;
+  z-index: 1;
+}
+
+.site-hero .sub-title {
+  color: #dfc977;
+  font-family: var(--style-font);
+  font-size: 30px;
+}
+
+.site-hero h1 {
+  color: #fff;
+  font-family: var(--title-font);
+  font-size: clamp(56px, 8vw, 96px);
+  line-height: 0.98;
+  margin: 18px 0 24px;
+}
+
+.site-hero p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 18px;
+  max-width: 560px;
+}
+
+.site-hero-mark {
+  align-items: center;
+  border: 1px solid rgba(223, 201, 119, 0.55);
+  border-radius: 50%;
+  color: rgba(223, 201, 119, 0.75);
+  display: flex;
+  font-family: var(--title-font);
+  font-size: clamp(180px, 34vw, 440px);
+  height: min(68vw, 640px);
+  justify-content: center;
+  line-height: 1;
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(68vw, 640px);
+}
+
+.main-header .logo img,
+.sticky-header .logo img,
+.mobile-menu .nav-logo img,
+.main-footer .logo img {
+  height: auto;
+  max-height: 58px;
+  max-width: 190px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .site-hero {
+    min-height: 600px;
+    padding: 110px 24px 80px;
+  }
+
+  .site-hero-mark {
+    opacity: 0.28;
+    right: -25%;
+    width: 90vw;
+  }
+}
